@@ -6,7 +6,7 @@ This module defines the abstract base class for all agents within the orchestrat
 It provides the core interface for execution, tool integration, and state management,
 ensuring a unified behavior across different agentic specialized personas.
 
-Author: AI Engineer (FAANG Grade)
+Author: AI Engineer
 Language: Python 3.8+
 """
 
