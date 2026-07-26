@@ -2,6 +2,13 @@ import logging
 import sys
 from typing import Optional
 
+LOG_FORMAT = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+VALID_LOG_LEVELS = {"DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"}
+
+logger = logging.getLogger(__name__)
+
+
+
 def setup_logging(level: str = "INFO") -> None:
     \"\"\"
     Sets up the global logging configuration for the orchestrator.
